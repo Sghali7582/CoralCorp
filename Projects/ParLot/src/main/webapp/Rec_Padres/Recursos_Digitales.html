@@ -1,0 +1,216 @@
+<!doctype html>
+<!--Autor:
+Pereda Ramírez Yael
+-->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+
+    <!-- Page Title -->
+    <title>Recursos Digitales</title>
+
+    <!-- Compressed Styles -->
+    <link href="CoralCorp-Page/assets/css/slides.min.css?41331" rel="stylesheet" type="text/css">
+
+    <!-- Custom Styles -->
+    <!-- <link href="css/custom.css" rel="stylesheet" type="text/css"> -->
+
+    <!-- jQuery 3.3.1 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Compressed Scripts -->
+    <script src="CoralCorp-Page/assets/js/slides.min.js?41331" type="text/javascript"></script>
+
+    <!-- Custom Scripts -->
+    <!-- <script src="js/custom.js" type="text/javascript"></script> -->
+
+    <!-- Fonts and Material Icons -->
+    <link rel="stylesheet" as="font"
+          href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,600,700|Material+Icons"/>
+
+    <!-- Style for video buttons -->
+    <style>
+        .glow-on-hover {
+            width: 220px;
+            height: 50px;
+            border: none;
+            outline: none;
+            color: #fff;
+            background: #111111;
+            cursor: pointer;
+            position: relative;
+            z-index: 0;
+            border-radius: 10px;
+        }
+
+        .glow-on-hover:before {
+            content: '';
+            background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            background-size: 400%;
+            z-index: -1;
+            filter: blur(5px);
+            width: calc(100% + 1px);
+            height: calc(100% + 1px);
+            animation: glowing 20s linear infinite;
+            opacity: 0;
+            transition: opacity .3s ease-in-out;
+            border-radius: 10px;
+        }
+
+        .glow-on-hover:active {
+            color: #000
+        }
+
+        .glow-on-hover:active:after {
+            background: transparent;
+        }
+
+        .glow-on-hover:hover:before {
+            opacity: 1;
+        }
+
+        .glow-on-hover:after {
+            z-index: -1;
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: #111;
+            left: 0;
+            top: 0;
+            border-radius: 10px;
+        }
+
+        @keyframes glowing {
+            0% {
+                background-position: 0 0;
+            }
+            50% {
+                background-position: 400% 0;
+            }
+            100% {
+                background-position: 0 0;
+            }
+        }
+    </style>
+</head>
+<body class="slides chain simplifiedMobile animated">
+
+<!-- Navigation -->
+<nav class="side pole">
+    <div class="navigation">
+        <ul></ul>
+    </div>
+</nav>
+
+<!-- Portada -->
+<section class="slide fade-6 kenBurns">
+    <div class="content">
+        <div class="container">
+            <div class="wrap">
+                <div class="fix-7-12" id="wholeDiv">
+                    <h1 class="ae-1"><b>Recursos digitales</b></h1>
+                    <p class="ae-2" id="text1"><span class="opacity-8">¿Cuál elegir?</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="background" style="background-image:url(/CoralCorp-Page/assets/img/Recursos_para_Padres/Recursos_digitales/img-recursos.jpg)"></div>
+</section>
+
+<!-- ¿Qué es el crédito? -->
+<section class="slide fade-6 kenBurns">
+    <div class="content">
+        <div class="container">
+            <div class="wrap">
+                <div class="fix-10-12 toCenter">
+                    <br><br>
+                    <h1 class="ae-1"><b>LUMOSITY</b></h1>
+                    <br>
+                    <p align="justify" class="ae-2"><span class="opacity-8">
+                        Ofrece un entrenamiento cognitivo diario con juegos que se basan en tareas
+                        neurocognitivas y neuropsicológicas comunes: velocidad, atención, memoria,
+                        flexibilidad y resolución de problemas, entre otras.
+                        </span>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="background" style="background-image:url(/CoralCorp-Page/assets/img/Recursos_para_Padres/Recursos_digitales/img-lumosity.jpg)"></div>
+</section>
+
+<!-- AbaPlanet Lite -->
+<section class="slide fade-6 kenBurns">
+    <div class="content">
+        <div class="container">
+            <div class="wrap">
+                <div class="fix-10-12 toCenter">
+                    <br><br>
+                    <h1 class="ae-1"><b>AbaPlanet Lite</b></h1>
+                    <br>
+                    <p align="justify" class="ae-2"><span class="opacity-8"> Este se puede usar
+                        Es una app de aprendizaje para iPad que permite trabajar el reconocimiento
+                        de objetos y vocabulario básico a través de un sistema de inteligencia artificial
+                        pre-programado, que toma decisiones en base al rendimiento del niño, disminuyendo
+                        o acelerando el ritmo de aprendizaje. </span> </p>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="background" style="background-image:url(/CoralCorp-Page/assets/img/Recursos_para_Padres/Recursos_digitales/img-abaLite.jpg)"></div>
+</section>
+
+<!-- Soy Visual -->
+<section class="slide fade-6 kenBurns">
+    <div class="content">
+        <div class="container">
+            <div class="wrap">
+                <div class="fix-10-12 toCenter">
+                    <br><br>
+                    <h1 class="ae-1"><b>Soy Visual</b></h1>
+                    <br>
+                    <p align="justify" class="ae-2"><span class="opacity-8">Es un sistema de comunicación
+                        aumentativa que incluye fotografías, láminas y diversos materiales gráficos,
+                        además de una app con ejercicios prácticos. Todos los recursos se ofrecen
+                        gratuitamente en la plataforma web www.soyvisual.org </span> </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="background" style="background-image:url(/CoralCorp-Page/assets/img/Recursos_para_Padres/Recursos_digitales/img-soyVisual.png)"></div>
+</section>
+
+<!-- PARLOT -->
+<section class="slide fade-6 kenBurns">
+    <div class="content">
+        <div class="container">
+            <div class="wrap">
+                <div class="fix-10-12 toCenter">
+                    <h1 class="ae-1"><b>PARLOT</b></h1>
+                    <p align="center" class="ae-2"><span class="opacity-8">
+                        Es un proyecto para ayudar a las personas con algún tipo de problema de desarrollo
+                        emocional, a través de lecciones que le apoyarán para desenvolverse de una mejor
+                        manera en el ambiente social en base a un cierto tipo de aprendizaje adaptativo.
+                    </span>
+                    </p>
+                    <br>
+                    <a href="Projects/ParLot/src/main/webapp/Recursos_para_padres.html"><button class="glow-on-hover">Regresar</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="background" style="background-image:url(/CoralCorp-Page/assets/img/Recursos_para_Padres/Recursos_digitales/img-parlot.png)"></div>
+</section>
+</body>
+</html>
